@@ -119,42 +119,42 @@ I use LeNet,because it is used to classify Mnist set,which is similar to German 
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4](https://github.com/esearcher/Traffic-Sign-Classifier/blob/master/five%20German%20traffic%20signs/00000.ppm) ![alt text][image5](https://github.com/esearcher/Traffic-Sign-Classifier/blob/master/five%20German%20traffic%20signs/00001.ppm) ![alt text][image6](https://github.com/esearcher/Traffic-Sign-Classifier/blob/master/five%20German%20traffic%20signs/00002.ppm) 
-![alt text][image7](https://github.com/esearcher/Traffic-Sign-Classifier/blob/master/five%20German%20traffic%20signs/00003.ppm) ![alt text][image8](https://github.com/esearcher/Traffic-Sign-Classifier/blob/master/five%20German%20traffic%20signs/00004.ppm)
+[five German traffic signs](https://github.com/esearcher/Traffic-Sign-Classifier/blob/master/five%20German%20traffic%20signs.png)
 
-The first image might be difficult to classify because ...
-
+The third image might be difficult to classify because it's background is blurry
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Priority road      	| No passing   									| 
+| Vehicles over 3.5 metric tons prohibited     			| Vehicles over 3.5 metric tons prohibited		|
+| Turn right ahead		| Turn right ahead								|
+| Keep right	      	| Keep right					 				|
+| Speed limit (30km/h)	| Speed limit (30km/h) 							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 0.931
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image,  The top five soft max probabilities were [ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497, 0.12789202],and the model made a
+wrong prediction
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+For the second image,The top five soft max probabilities were [ 0.28086119,  0.27569815,  0.08594638,  0.0178669 ,  0.18063401, 0.15899337] ,and the model made a
+right prediction
 
+For the second image,The top five soft max probabilities were [ 0.26076848,  0.23664738,  0.08020603,  0.07001922,  0.1134371 ,0.23892179] ,and the model made a
+right prediction
 
-For the second image ... 
+For the second image,The top five soft max probabilities were [ 0.11943333,  0.29198961,  0.02605103,  0.26234032,  0.1351348 ,0.16505091] ,and the model made a
+right prediction
+
+For the second image,The top five soft max probabilities were [ 0.09561176,  0.34396535,  0.0643941 ,  0.16240774,  0.24206137,0.09155967]] ,and the model made a
+right prediction
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
