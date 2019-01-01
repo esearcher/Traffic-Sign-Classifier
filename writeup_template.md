@@ -139,21 +139,21 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image,  The top five soft max probabilities were [ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497, 0.12789202],and the model made a
+
+For the first image,  The top five soft max probabilities were [  1.00000000e+00,   1.92254251e-11,   6.25418944e-12, 1.28809800e-14, 9.71525106e-15],and the model made a
 wrong prediction
 
-For the second image,The top five soft max probabilities were [ 0.28086119,  0.27569815,  0.08594638,  0.0178669 ,  0.18063401, 0.15899337] ,and the model made a
+For the second image,The top five soft max probabilities were [  1.00000000e+00,   7.54890738e-14,   6.18653859e-16,2.63448687e-16,   9.85705939e-17] ,and the model made a
 right prediction
 
-For the second image,The top five soft max probabilities were [ 0.26076848,  0.23664738,  0.08020603,  0.07001922,  0.1134371 ,0.23892179] ,and the model made a
+For the second image,The top five soft max probabilities were [  1.00000000e+00,   5.91272143e-17,   1.11845086e-18,5.16365843e-19,   3.92398876e-20] ,and the model made a
 right prediction
 
-For the second image,The top five soft max probabilities were [ 0.11943333,  0.29198961,  0.02605103,  0.26234032,  0.1351348 ,0.16505091] ,and the model made a
+For the second image,The top five soft max probabilities were [  1.00000000e+00,   3.70039820e-24,   1.35319247e-24,8.12531231e-26,   5.89613040e-29] ,and the model made a
 right prediction
 
-For the second image,The top five soft max probabilities were [ 0.09561176,  0.34396535,  0.0643941 ,  0.16240774,  0.24206137,0.09155967]] ,and the model made a
+For the second image,The top five soft max probabilities were [  1.00000000e+00,   1.39638898e-10,   5.00160785e-13,1.24256729e-20,   2.32563909e-21] ,and the model made a
 right prediction
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
